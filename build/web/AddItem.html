@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/addemployeestyle.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Add Item</div>
+    <div class="content">
+        <form action="AddItemChecker" method="post">
+        <div class="user-details">
+            
+          <div class="input-box">
+            <span class="details">Food Item</span>
+            <input type="text" name="name" placeholder="Enter Food Item" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Quantity</span>
+            <input type="text" name="quantity" placeholder="Quantity" required>
+          </div>
+		  <div class="input-box">
+            <span class="details">Price</span>
+            <input type="text" name="price" placeholder="Enter item Price" required>
+          </div>
+          <div class="input-box">
+            <span class="details">category</span>
+            <input type="text" name="category" placeholder="category" required>
+          </div>
+          
+
+        <div class="gender-details">
+            <input type="radio" value="Veg" name="type" id="dot-1">
+            <input type="radio" value="Non-Veg" name="type" id="dot-2">
+          <span class="gender-title">Type</span>
+          <div class="category">
+            <label for="dot-1" style="margin-right: 2vh;">
+            <span class="dot one"></span>
+            <span class="gender">Veg</span>
+          </label>
+          
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="gender">Non-Veg</span>
+          </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Add Item">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
